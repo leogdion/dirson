@@ -1,0 +1,17 @@
+#!/usr/bin/env node
+
+process.bin = process.title = 'dirson';
+
+var dirson = require('../lib/index.js'),
+	cli = require('../lib/util/cli');
+
+var configuration = cli.read({}, process.argv.slice(2));
+
+var json = dirson.readdir(configuration, function (error, files) {
+	if (error) {
+		console.log(error);
+		process.exit(1);
+	}
+	console.log(JSON.stringify(files));	
+	process.exit(0);
+});

@@ -1,0 +1,25 @@
+{
+  "name": "dirson",
+  "version": "0.1.0",
+  "description": "Creates a json file for the directory structure",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leogdion/dirson.git"
+  },
+  "keywords": [
+    "directory",
+    "json"
+  ],
+  "dependencies" : {
+    "async" : "*"
+  },
+  "author": "Leo G Dion",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leogdion/dirson/issues"
+  }
+}
