@@ -4,7 +4,7 @@
   "description": "Creates a json file for the directory structure",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/index.js"
   },
   "repository": {
     "type": "git",
@@ -16,6 +16,11 @@
   ],
   "dependencies" : {
     "async" : "*"
+  },
+  "devDependencies" : {
+    "proxyquire" : "*",
+    "vows" : "*",
+    "nodeunit" : "*"
   },
   "author": "Leo G Dion",
   "license": "MIT",
