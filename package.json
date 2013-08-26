@@ -15,7 +15,8 @@
       "json"
       ],
       "dependencies" : {
-        "async" : "*"
+        "async" : "*",
+        "optimist" : "*"
         },
         "devDependencies" : {
           "proxyquire" : "*",
