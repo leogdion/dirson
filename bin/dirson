@@ -8,9 +8,7 @@ var dirson = require('../lib/index.js'),
 
 var argv = cli.argv;
 
-console.log(argv);
 var configuration = cli.read({}, argv);
-console.log(configuration);
 
 var json = dirson.readdir(configuration, function (error, files) {
 	if (error) {
