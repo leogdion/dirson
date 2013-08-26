@@ -5,26 +5,29 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "node test/index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/leogdion/dirson.git"
-  },
-  "keywords": [
-    "directory",
-    "json"
-  ],
-  "dependencies" : {
-    "async" : "*"
-  },
-  "devDependencies" : {
-    "proxyquire" : "*",
-    "vows" : "*",
-    "nodeunit" : "*"
-  },
-  "author": "Leo G Dion",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/leogdion/dirson/issues"
-  }
-}
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/leogdion/dirson.git"
+      },
+      "keywords": [
+      "directory",
+      "json"
+      ],
+      "dependencies" : {
+        "async" : "*"
+        },
+        "devDependencies" : {
+          "proxyquire" : "*",
+          "vows" : "*",
+          "nodeunit" : "*"
+          },
+          "author": "Leo G Dion",
+          "license": "MIT",
+          "bin" : {
+             "dirson" : "bin/dirson"
+            },
+            "bugs": {
+              "url": "https://github.com/leogdion/dirson/issues"
+            }
+          }
